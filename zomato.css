@@ -9,6 +9,7 @@ header{
     overflow:hidden;
     position: relative;
     object-fit: cover;
+    margin-bottom: 10vh;
 }
 .header-image{
     position: absolute;
@@ -62,6 +63,7 @@ h4{
     border-radius: 10px;
     background-color: white;
     padding: 5px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .search input{
     outline: none;
@@ -69,6 +71,7 @@ h4{
     width: 50%;
     padding-left: 10px;
     font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .search p{
     color: grey;
@@ -76,10 +79,55 @@ h4{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     padding-right: 10px;
+    letter-spacing: 2px;
 }
 .seacrh i:first-child{
     font-size: 20px;
     color: rgb(252,119,119);
     padding-left: 10px;
     padding-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ri-map-pin-line{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.sec-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13vh;
+}
+.box{
+    position: relative;
+    width: 256px;
+    height: 180px;
+    margin: 3px 5px;
+    box-shadow: 0 1px 2px gray;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: rgb(243,240,240);
+}
+.box img{
+    width: 100%;
+    border-radius: 15px;
+    z-index: -1;
+}
+.white{
+    position: absolute;
+    bottom: 3px;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+    width: 100%;
+    height: 25%;
+    z-index: 2;
+    background-color: white;
+}
+.white p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: rgb(56,56,56);
+    letter-spacing: 0.7px;
+    margin: 10px;
+
 }
