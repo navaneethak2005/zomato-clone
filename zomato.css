@@ -234,6 +234,7 @@ h4{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space:nowrap;
+    color:rgb(35, 36, 41);
 }
 .ri-arrow-right-s-line{
     cursor:pointer;
