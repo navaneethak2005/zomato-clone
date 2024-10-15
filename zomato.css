@@ -255,8 +255,9 @@ h4{
     overflow: hidden;
 }
 .contact img{
+    margin-top: 50px;
     width:250px;
-    height: 450px;
+    height: 400px;
     padding-right: 40px;
 }
 .address{
@@ -282,7 +283,49 @@ h4{
     padding-bottom: 20px;
 }
 .radio label{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color:rgb(49,49,49);
     
+}
+.radio [type="radio"]{
+    accent-color: rgb(255,92,92);
+}
+.email{
+    position: relative;
+}
+.email input{
+    height: 46px;
+    border-radius: 5px;
+    width: 270px;
+    border :1px solid rgb(184,183,183);
+    outline: rgb(255, 92, 92);
+    font-size: 1.3rem;
+    padding-left: 15px;
+}
+.place{
+    position: absolute;
+    font-size: 1.3rem;
+    left:15px;
+    top:13px;
+    color:grey;
+    font-weight: lighter;
+}
+.email button{
+    width: 150px;
+    border-radius: 6px;
+    border: 1px solid rgb(253,104,104);
+    background-color: rgb(253,104,104);
+    font-size: 1.1rem;
+    margin-left: 10px;
+    color:white;
+}
+.download{
+    font-size: 0.7rem;
+    margin-top: 27px;
+    margin-bottom: 0;
+    color: gray;
+}
+.app img{
+    width: 137px;
+    height: 40px;
 }
