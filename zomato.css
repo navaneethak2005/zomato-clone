@@ -409,7 +409,7 @@ h4{
     width: 137px;
     height: 40px;
     margin-top: 11px;
-    cursor-pointer;
+    cursor:pointer;
 }
 .box-4{
     display: flex;
