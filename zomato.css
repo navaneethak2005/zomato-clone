@@ -53,6 +53,7 @@ h4{
 }
 .head h3{
     font-size: 2em;
+    cursor: context-menu;
     color: whitesmoke;
     font-weight: lighter;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
@@ -81,10 +82,12 @@ h4{
     border-right: 1px solid grey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
-    padding-right: 10px;
+    padding-right: 20px;
+    padding-left: 10px;
     letter-spacing: 2px;
+    cursor: pointer;
 }
-.seacrh i:first-child{
+.search i:first-child{
     font-size: 20px;
     color: rgb(252,119,119);
     padding-left: 10px;
@@ -94,6 +97,10 @@ h4{
 .ri-map-pin-line{
     padding-right: 10px;
     padding-left: 10px;
+}
+.ri-search-line{
+    padding-left: 20px;
+    padding-right:10px;
 }
 .sec-1{
     display: flex;
@@ -124,6 +131,7 @@ h4{
     height: 25%;
     z-index: 2;
     background-color: white;
+    cursor: pointer;
 }
 .white p{
     text-align: center;
@@ -141,6 +149,10 @@ h4{
     font-size: 2.7rem;
     font-weight: lighter;
     margin-bottom: 10px;
+    cursor: context-menu;
+}
+ .sec-2 .k{
+    cursor: pointer;
 }
 .sec-2 div{
     display: flex;
@@ -153,6 +165,7 @@ h4{
     font-size: 1rem;
     font-weight: lighter;
     color: rgb(99,98,98);
+    cursor: context-menu;
 }
 .box-1{
     width:255x;
@@ -180,6 +193,9 @@ h4{
     font-size: 1rem;
     padding-bottom: 5px;
 }
+.box-1 .k{
+    cursor: pointer;
+}
 .box-1 i{
     color: white;
     padding-bottom: 15px;
@@ -205,6 +221,7 @@ h4{
     text-align: center;
     margin: 50px;
     color: rgb(56,56,65);
+    cursor: context-menu;
 }
 .sec-4{
     display: grid;
@@ -236,6 +253,7 @@ h4{
     text-overflow: ellipsis;
     white-space:nowrap;
     color:rgb(35, 36, 41);
+    cursor: pointer;
 }
 .ri-arrow-right-s-line{
     cursor:pointer;
@@ -269,12 +287,14 @@ h4{
     padding-bottom: 10px;
     font-size:0.95rem;
     color:rgb(92,91,91);
+    cursor: context-menu
 }
 .address h2{
     font-size: 2.7rem;
     font-weight: lighter;
     margin-bottom: 20px;
-    color:rgb(24,24,24);   
+    color:rgb(24,24,24); 
+    cursor: context-menu  
 }
 .radio{
     display: flex;
@@ -318,6 +338,7 @@ h4{
     font-size: 1.1rem;
     margin-left: 10px;
     color:white;
+    cursor: pointer
 }
 .download{
     font-size: 0.7rem;
@@ -336,12 +357,14 @@ h4{
     font-size: 1.9rem;
     font-weight: lighter;
     color:rgb(31,31,31);
+    cursor: context-menu
 }
 .sec-6 h4{
     font-size: 1.4rem;
     margin-bottom: 25px;
     font-weight: lighter;
     color:rgb(31,31,31);
+    cursor: context-menu
 }
 .sec-6 a{
     text-decoration: none;
@@ -360,7 +383,6 @@ h4{
     display: inline-block;
     margin: 15px 0;
 }
-/*cursor: context-menu*/
 .first img{
     width: 128px;
     height: 32px;
@@ -382,6 +404,7 @@ h4{
     border-radius: 5px;
     margin-right: 20px;
     font-weight: 400;
+    cursor: context-menu
 }
 .second {
     display: flex;
@@ -395,6 +418,7 @@ h4{
     font-weight: lighter;
     color: rgb(24,24,24);
     white-space: nowrap;
+    cursor: context-menu
 }
 .second a{
     display: inline-block;
@@ -423,4 +447,5 @@ h4{
     padding: 10px 0;
     color: grey;
     font-size: 0.7rem;
+    cursor: context-menu
 }
